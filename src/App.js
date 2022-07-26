@@ -1,8 +1,15 @@
 import './App.css';
+import Card from './component/Card'
+import Container from './component/Container';
 
 function App() {
   return (
-    <div className=' bg-red-500 font-bold flex justify-center'>Resep Makanan</div>
+    <>
+      <Container>
+        <h1 className=' font-bold text-white mb-6 mt-6'>MANGA COMIC</h1>
+        <Card></Card>
+      </Container>
+    </>
   );
 }
 
